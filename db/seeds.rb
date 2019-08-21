@@ -21,7 +21,7 @@ Payment_type.create(name: "Pay per project")
 
 Post_visibility.destroy_all
 Post_visibility.create(name: "Anyone")
-Post_visibilities.create(name: "Only Registered User")
+Post_visibility.create(name: "Only Registered User")
 
 Project_timeline.destroy_all
 Project_timeline.create(name: "Less than one month")
